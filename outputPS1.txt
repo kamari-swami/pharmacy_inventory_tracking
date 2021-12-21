@@ -1,0 +1,54 @@
+Quantity requested for drug id (122) is (45) is more than available stock (5)
+This Sell Order was Skipped. No change in inventory or counter Status was made
+Quantity requested for drug id (122) is (6) is more than available stock (5)
+This Sell Order was Skipped. No change in inventory or counter Status was made
+Quantity requested for drug id (122) is (45) is more than available stock (44)
+This Sell Order was Skipped. No change in inventory or counter Status was made
+------printDrugInventory-------
+Total number of medicines entered in the inventory : 6
+111,12
+112,17
+113,56
+122,38
+123,5
+124,4
+-------------------------------
+------printStockOut-------
+The following medicines are out of stock:
+NO OUT OF STOCK MEDICINES FOUND !
+-------------------------------
+------updateDrugList:  112,  2-------
+Stock updated for drug ID:  112 with quantity:  2
+-------------------------------
+------checkDrugStatus: 114-------
+Drug ID 114 not found in stock
+-------------------------------
+------freqDemand:  sell,  0-------
+Drugs with  sell entries more than  0 times are :
+Drug ID :111, CheckoutCounter :6
+Drug ID :112, CheckoutCounter :4
+Drug ID :113, CheckoutCounter :3
+Drug ID :122, CheckoutCounter :6
+Drug ID :123, CheckoutCounter :3
+Drug ID :124, CheckoutCounter :3
+-------------------------------
+------freqDemand:  buy,  0-------
+Drugs with  buy entries more than  0 times are :
+Drug ID :111, CheckoutCounter :6
+Drug ID :112, CheckoutCounter :4
+Drug ID :113, CheckoutCounter :3
+Drug ID :122, CheckoutCounter :6
+Drug ID :123, CheckoutCounter :3
+Drug ID :124, CheckoutCounter :3
+-------------------------------
+------supplyShortage: 123-------
+Minimum Units <= 30
+Drugs with supply shortage
+111,12
+112,15
+123,5
+124,4
+-------------------------------
+------updateDrugList:  999,  0-------
+Stock updated for drug ID:  999 with quantity:  0
+-------------------------------
